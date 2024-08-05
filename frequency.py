@@ -2,10 +2,6 @@
 that occurs more than 25% of the time, return that integer.'''
 
 def findSpecialInteger(arr):
-    """
-    :type arr: List[int]
-    :rtype: int
-    """
     percent = len(arr) / 4
     for i in arr:
         if arr.count(i) > percent:

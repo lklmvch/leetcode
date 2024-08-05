@@ -6,15 +6,10 @@ The game continues until nums becomes empty.
 Return the resulting array arr."""
 
 
-class Solution(object):
-    def numberGame(self, nums):
-        """
-        :type nums: List[int]
-        :rtype: List[int]
-        """
-        arr = sorted(nums)
+def numberGame(nums):
+    arr = sorted(nums)
 
-        for i in range(1, len(arr), 2):
-            arr[i-1], arr[i] = arr[i], arr[i-1]
+    for i in range(1, len(arr), 2):
+        arr[i-1], arr[i] = arr[i], arr[i-1]
 
-        return arr
+    return arr

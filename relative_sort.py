@@ -5,11 +5,6 @@ Elements that do not appear in arr2 should be placed at the end of arr1 in ascen
 
 from collections import Counter
 def relativeSortArray(arr1, arr2):
-    """
-    :type arr1: List[int]
-    :type arr2: List[int]
-    :rtype: List[int]
-    """
     cnt = Counter(arr1)
     res = []
 

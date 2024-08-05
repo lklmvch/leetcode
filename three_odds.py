@@ -2,11 +2,7 @@
 Otherwise, return false."""
 
 
-def threeConsecutiveOdds(self, arr):
-    """
-    :type arr: List[int]
-    :rtype: bool
-    """
+def threeConsecutiveOdds(arr):
     odds = 0
     for i in arr:
         if i % 2 != 0:
