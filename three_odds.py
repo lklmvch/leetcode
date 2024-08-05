@@ -2,7 +2,6 @@
 Otherwise, return false."""
 
 
-
 def threeConsecutiveOdds(arr):
     odds = 0
     for i in arr:

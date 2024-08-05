@@ -6,7 +6,6 @@ The game continues until nums becomes empty.
 Return the resulting array arr."""
 
 
-
 def numberGame(nums):
     arr = sorted(nums)
     for i in range(1, len(arr), 2):

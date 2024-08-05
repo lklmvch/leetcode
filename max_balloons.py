@@ -12,5 +12,4 @@ def maxNumberOfBalloons(text):
     'o': text.count('o') / 2,
     'n': text.count('n')
     }
-
     return min(letters.values())
