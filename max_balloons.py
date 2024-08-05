@@ -3,6 +3,7 @@
 You can use each character in text at most once.
 Return the maximum number of instances that can be formed."""
 
+
 def maxNumberOfBalloons(text):
     letters = {
     'b': text.count('b'),
